@@ -20,4 +20,10 @@
   "exits": { "north": 2, "west": 0 },
   "items": ["rose"]
  }
+ ,
+ {"name": "A Goal room",
+  "desc": "This room is winner . It's red!",
+  "exits": { "north": 2, "west": 0 },
+  "items": ["trishul"]
+ }
 ]
