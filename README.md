@@ -57,12 +57,18 @@ I had an issue with the arbitary spaces, arbitary line spaces and also the game 
 2. **Winning and Losing Conditions**: I have a winning condition in the game that a player wins if the player uses the verb `win` when he is in the last room of the map with having the inventory list with the item in my red room consists rose using the loop.map. He loses the game in case he uses the command when he is in any other room without the item in the inventory. 
 Example: Consider we have a map with 5 rooms. If the player is in the 5th room i.e. the last room and have a item from the blue room in his inventory he gives the command `win`, he'd win whereas, if the player is in the 4th room and he gives the command `win`, he'd lose. 
 In my example map, the Goalroom(the last is where the player can give a command `win` to win the game.
+
 Step 1: go east
+
 step 2: get rose
+
 step 3: go north
+
 step 4: go west
+
 step 5: go south
+
 step 6: win
 
-3. **Drop Verb**: I have applied a drop verb to allow the player to drop an item in a room. The item will be removed from the inventory and be placed in the room the player where he picked it. To use the verb, the player can type `drop [item]` with a valid item existing in the inventory.
+4. **Drop Verb**: I have applied a drop verb to allow the player to drop an item in a room. The item will be removed from the inventory and be placed in the room the player where he picked it. To use the verb, the player can type `drop [item]` with a valid item existing in the inventory.
 In my example, the player can go to any room where there are any items to pick them up and then he can use the `drop` verb to drop any items he has in his inventory only in the room where he picked it.
